@@ -62,33 +62,6 @@ end
 
 def number_to_short_month_name(num1)
   month = number_to_full_month_name(num1)[0,3]
-
-#  case num1
-#  when 1
-#    month = "Jan"
-#  when 2
-#    month = "Feb"
-#  when 3
-#    month = "Mar"
-#  when 4
-#    month = "Apr"
-#  when 5
-#    month = "May"
-#  when 6
-#    month = "Jun"
-#  when 7
-#    month = "Jul"
-#  when 8
-#     month = "Aug"
-#  when 9
-#    month = "Sep"
-#  when 10
-#    month = "Oct"
-#  when 11
-#    month = "Nov"
-#  when 12
-#    month = "Dec"
-#  end
   return month
 end
 
